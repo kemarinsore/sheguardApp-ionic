@@ -1,0 +1,25 @@
+<ion-content [fullscreen]="true" class="intro-content">
+  <div>
+    <swiper-container
+      (slidechange)="swiperSlideChanged($event)"
+      [loop]="true"
+      [pagination]="true"
+      [autoplay]="{ delay: 2000, disableOnInteraction: false }">
+
+      <swiper-slide *ngFor="let slide of slides; let i = index" [ngClass]="{ 'active-slide': i === currentIndex }">
+        <div class="intro-container">  
+          <img [src]="slide.img" [alt]="slide.title" class="intro-image" />
+          <h2 class="intro-title">{{ slide.title }}</h2>
+          <p class="intro-description">
+            {{ slide.description }}
+          </p>
+        </div>
+      </swiper-slide>
+      
+    </swiper-container>
+
+    <ion-button expand="block" position="end" color="danger" class="start-button" [routerLink]="['/set-up']">
+      Mulai
+    </ion-button>
+  </div>
+</ion-content>

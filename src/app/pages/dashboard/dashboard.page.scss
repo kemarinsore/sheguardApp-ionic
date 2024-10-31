@@ -1,0 +1,229 @@
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    height: 120px;
+    z-index: -5;
+    background-color: rgba(167, 11, 11, 1);
+  }
+  
+  .custom-toolbar {
+    color: rgba(167, 11, 11, 1);
+    z-index: 10;
+  }
+  
+  .header-left {
+    color: white;
+  }
+  
+  .welcome-message {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+  
+  .today-date {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .profile-avatar {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .floating-card {
+    height: 160px;
+    width: 361px;
+    border-radius: 16px;
+    position: relative;
+    top: 5px; /* Make the card float right above the toolbar */
+    margin-left: 95%;
+    transform: translateX(-50%);
+    z-index: 10;
+    overflow: hidden;
+    text-align: start;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Fill the card with the image proportionally */
+  }
+  
+  .floating-title {
+    position: absolute;
+    bottom: 10px; /* Adjust to move the text more in line with your preference */
+    left: 20px;
+    z-index: 3;
+    color: white;
+  }
+  
+  .overlay-label {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem; 
+  }
+  
+  ion-grid{
+    margin-left: -15px;
+  }
+  
+  ion-col {
+    color: #000000;
+    text-align: center;
+    margin: auto;
+    // border: solid 1px #fff;
+  }
+  
+  .img-icon {
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+  }
+  
+  .row-up {
+    margin-top: -32px;
+  }
+  
+  .row-below {
+    margin-top: -10px;
+  }
+  
+  .k3 {
+    background-color:rgba(20, 100, 201, 0.2);
+    height: 70px;
+    width: 70px;
+    margin: auto;
+  }
+  
+  .damkar {
+    background-color:rgba(237, 26, 22, 0.2);
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    margin-top: 23px;
+  }
+  
+  .kesehatan {
+    background-color:rgba(20, 184, 166, 0.2);
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    margin-top: 25px;
+  }
+  
+  .surat {
+    background-color:rgba(255, 185, 62, 0.2);
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    margin-top: 27px;
+  }
+  
+  
+  .safety {
+    background-color:rgba(238, 230, 29, 0.2);
+    height: 70px;
+    width: 70px;
+    margin: auto;
+  }
+  
+  .patrol {
+    background-color:rgba(255, 165, 0, 0.2);
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    // margin-top: -10px;
+  }
+  
+  .inventory {
+    background-color:rgba(202, 95, 19, 0.2);
+    height: 70px;
+    width: 70px;
+    margin: auto;
+  }
+  
+  .hse {
+    background-color:rgba(143, 19, 202, 0.2);
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    margin-top: 19px;
+  }
+  
+  a {
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    display: inline-block;     
+    margin-top: 10px;
+    // text-align: justify; 
+  }
+
+  .card-news {
+    height: 196px;
+    width: 240px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+  }
+  
+  .save-news {
+    font-size: 20px;
+    margin-left: 185px;
+    margin-top: 20px;
+  }
+
+  ion-card-subtitle {
+    font-size: 20px;
+    margin-top: -50px;
+    position: relative;
+    display: flex;
+  }
+
+  ion-card-content {
+    font-size: 10px;
+    margin-top: -14px;
+  }
+
+  .truncate {
+    max-width: 90%;       /* Adjust width as needed */
+    white-space: nowrap;   /* Prevents text from wrapping to the next line */
+    overflow: hidden;      /* Hides overflow text */
+    text-overflow: ellipsis; /* Adds ellipsis (...) for overflowed text */
+    display: inline-block; /* Ensures ellipsis is applied */
+  }
+
+  .save {
+    right: 20px;
+    bottom: -20px;
+  }
+  
+  .fav{
+    font-size: 20px;
+    margin-left: 180px;
+    margin-top: 20px;
+  }
+
+  swiper-container {
+    --swiper-pagination-bullet-inactive-color: var(ion-color-step-200, )
+    --swiper-pagination-color: var(--ion-color-custom, #ffcc3d)
+  }
+
+  .swiper1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .swiper2 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    // padding-left: 1px;
+    // margin-right: -100px;
+  }

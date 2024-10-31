@@ -1,0 +1,35 @@
+.intro-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 45%;
+  }
+  
+  .intro-image {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .intro-title {
+    font-size: 20px;
+    margin-top: 20px;
+    font-style: bold;
+  }
+  
+  .intro-description {
+    font-size: 14px;
+    margin-top:-10px;
+    margin-bottom: 80px;
+  }
+
+  ion-button {
+    width: 345px;
+    margin: auto;
+  }
+
+  .swiper-container {
+    --swiper-pagination-bullet-inactive-color: rgba(167, 11, 11, 0.5); /* Inactive red */
+    --swiper-pagination-bullet-active-color: rgba(167, 11, 11, 1); /* Active red */
+  }
+  
+  
