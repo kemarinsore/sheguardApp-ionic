@@ -1,0 +1,7 @@
+{
+  "name": "sheguardApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
