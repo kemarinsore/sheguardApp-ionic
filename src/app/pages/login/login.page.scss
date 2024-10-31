@@ -1,0 +1,138 @@
+/* Header Image Container */
+.header-image-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+/* Background Image */
+.header-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Logo Overlay (placed in the center of the header) */
+.logo-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 132px;
+  height: 132px;
+}
+
+/* Content Section */
+ion-content {
+  --background: #ffffff;
+  padding: 0;
+}
+
+/* Login Form Container */
+.login-container {
+  width: 100vw;
+  max-width: 100vw;
+  background-color: #ffffff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: -20px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+}
+
+ion-checkbox {
+  --border-radius: 5;
+  --size: 20px;
+  --background: #fff;
+  --border-color: #b0b0b0;
+}
+
+ion-checkbox.checked {
+  --background-checked: #b71c1c;
+}
+
+/* Input Fields */
+.input-item {
+  --background: #f8f8f8;
+  --border-radius: 8px;
+  margin: 8px 0;
+  border-radius: 8px;
+}
+
+/* Remember Me and Forgot Password */
+.remember-forgot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.forgot-password {
+  font-size: 0.9em;
+  color: #b71c1c;
+  text-transform: none;
+  text-decoration: none;
+}
+
+/* Login Button */
+.login-button {
+  --background: #b71c1c;
+  --border-radius: 8px;
+  font-weight: bold;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+/* Separator */
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.separator p {
+  margin: 0 10px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+/* Social Login Buttons */
+.social-button {
+  --border-radius: 8px;
+  --border-color: #666;
+  --color: #666;
+  font-weight: normal;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.social-button ion-icon {
+  margin-right: 8px;
+}
+
+/* Version Text */
+.version {
+  font-size: 0.8em;
+  color: #666;
+  margin-top: 15px;
+}

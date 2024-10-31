@@ -1,0 +1,79 @@
+/* Mengatur ion-header dan ion-toolbar menjadi transparan */
+ion-header {
+  --background: transparent;
+  border: none; /* Menghilangkan border default jika ada */
+}
+
+ion-toolbar {
+  --background: transparent;
+  --ion-background-color: transparent;
+  border: none; /* Menghilangkan border bawah jika ada */
+}
+
+/* Mengatur warna teks dan ikon agar tetap terlihat */
+.title {
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.back-button ion-icon {
+  color: #000000; /* Atur warna ikon sesuai kebutuhan */
+}
+
+ion-content {
+  --background: #ffffff;
+
+  /* Back Button */
+  .back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+  }
+
+  /* Title */
+  .title {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #000;
+    margin-top: 20px;
+  }
+
+  /* Image Container */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    img {
+      width: 200px;
+      height: auto;
+    }
+  }
+
+  /* Instruction Text */
+  .instruction-text {
+    text-align: center;
+    font-size: 0.9em;
+    color: #000000;
+    margin: 15px 20px;
+  }
+
+  /* Input Field */
+  .input-item {
+    --background: #f8f8f8;
+    --border-radius: 8px;
+    margin: 20px 20px 10px;
+    padding-left: 10px;
+  }
+
+  /* Submit Button */
+  .submit-button {
+    --background: #b71c1c;
+    --border-radius: 8px;
+    font-weight: bold;
+    margin: 20px 20px;
+  }
+}

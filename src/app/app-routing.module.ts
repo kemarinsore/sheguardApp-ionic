@@ -14,6 +14,22 @@ const routes: Routes = [
     path: 'set-up',
     loadChildren: () => import('./pages/set-up/set-up.module').then( m => m.SetUpPageModule)
   },
+  {
+    path: 'login',
+    loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'forgot-password',
+    loadChildren: () => import('./pages/forgot-password/forgot-password.module').then( m => m.ForgotPasswordPageModule)
+  },
+  {
+    path: 'verifikasi-email',
+    loadChildren: () => import('./pages/verifikasi-email/verifikasi-email.module').then( m => m.VerifikasiEmailPageModule)
+  },
+  {
+    path: 'sandi-baru',
+    loadChildren: () => import('./pages/sandi-baru/sandi-baru.module').then( m => m.SandiBaruPageModule)
+  },
 ];
 @NgModule({
   imports: [

@@ -1,0 +1,89 @@
+<ion-header class="ion-no-border">
+  <!-- Background Image with Overlay Logo -->
+  <div class="header-image-container">
+    <img src="/assets/img/face.png" alt="Header Image" class="header-image" />
+    <img src="/assets/icon/Logosetting.png" alt="Logo" class="logo-overlay" />
+  </div>
+</ion-header>
+
+<ion-content>
+  <!-- Login Form Container -->
+  <div class="login-container">
+    <h2>Selamat Datang</h2>
+    <p>Keluarga menunggu di rumah, jaga keselamatan dan patuhi SOP</p>
+
+    <!-- Username Input -->
+    <ion-item lines="full" class="input-item">
+      <ion-input
+        label="Nama"
+        label-placement="floating"
+        type="text"
+        required
+      ></ion-input>
+    </ion-item>
+
+    <!-- Password Input with Toggle -->
+    <ion-item lines="full" class="input-item">
+      <ion-input
+        label="Kata Sandi"
+        label-placement="floating"
+        type="password"
+      ></ion-input>
+    </ion-item>
+
+    <!-- Remember Me and Forgot Password -->
+    <ion-item lines="none" class="remember-me">
+      <ion-checkbox slot="start"></ion-checkbox>
+      <ion-label>Ingat Saya</ion-label>
+      <ion-button fill="clear" slot="end" color="danger" class="forgot-password"
+        >Lupa Kata Sandi?</ion-button
+      >
+    </ion-item>
+
+    <!-- Login Button -->
+    <ion-button expand="block" color="danger" class="login-button">
+      Masuk
+    </ion-button>
+
+    <!-- Separator -->
+    <div class="separator">
+      <div class="line"></div>
+      <p>Atau</p>
+      <div class="line"></div>
+    </div>
+
+    <!-- Social Login Buttons -->
+    <ion-button
+      expand="block"
+      fill="outline"
+      color="medium"
+      class="social-button"
+    >
+      <ion-icon slot="start" name="logo-google"></ion-icon>
+      Masuk Dengan Google
+    </ion-button>
+
+    <ion-button
+      expand="block"
+      fill="outline"
+      color="medium"
+      class="social-button"
+    >
+      <ion-icon slot="start" name="logo-apple"></ion-icon>
+      Masuk Dengan Apple
+    </ion-button>
+
+    <ion-button
+      expand="block"
+      fill="outline"
+      color="medium"
+      class="social-button"
+    >
+      <ion-icon slot="start" name="logo-facebook"></ion-icon>
+      Masuk Dengan Facebook
+    </ion-button>
+
+    <!-- Version -->
+    <p class="version">Ver. 1.0.1</p>
+  </div>
+</ion-content>
