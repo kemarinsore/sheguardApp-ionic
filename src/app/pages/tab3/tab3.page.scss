@@ -1,0 +1,21 @@
+.description {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.inline-fields {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+ion-item ion-label {
+  font-size: 14px;
+  color: #a00;
+}
+
+ion-button {
+  font-weight: bold;
+}
