@@ -1,18 +1,15 @@
-<ion-header [translucent]="true">
-  <ion-toolbar class="custom-toolbar">
-    <div class="header-content">
-      <div class="header-left">
-        <h2 class="welcome-message">Hi, Arya Andhika</h2>
-        <p class="today-date">Today Mon, 7 Sep 2023</p>
-      </div>
-      <ion-avatar class="profile-avatar">
-        <img src="https://ionicframework.com/docs/img/demos/avatar.svg" />
-      </ion-avatar>
-    </div>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
+  <div class="header-content">
+    <div class="header-left">
+      <h2 class="welcome-message">Hi, Arya Andhika</h2>
+      <p class="today-date">Today Mon, 7 Sep 2023</p>
+    </div>
+    <ion-avatar class="profile-avatar">
+      <img src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+    </ion-avatar>
+  </div>
+  <img class="bg" src="assets/img/bg.png" />
+  
   <swiper-container
   (slidechange)="swiperSlideChanged($event)"
   [loop]="true"
@@ -99,9 +96,9 @@
 
 
   <swiper-container
-  [slidesPerView]="1.5"
-  [centeredSlides]="true"
-  [spaceBetween]="4">
+  [slidesPerView]="2"
+  [centeredSlides]="false"
+  [spaceBetween]="130">
   <swiper-slide *ngFor="let news of newsList" class="swiper2">
     <ion-card class="card-news">
       <img class="img-news" [alt]="news.title" [src]="news.img" />

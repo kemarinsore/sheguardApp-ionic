@@ -1,0 +1,225 @@
+<ion-content [fullscreen]="true">
+  <img class="bg-profil" src="assets/img/bg-profil.png" />
+    <img class="img-profil"  src="assets/img/profil.png" />
+
+  <div>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="2">
+          <ion-icon class="font-icon" name="text"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <h2 class="font-text">
+            Ukuran Huruf
+          </h2>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-range class="font-range" aria-label="Range with ticks" [ticks]="true" [snaps]="true" [min]="0" [max]="8"></ion-range>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  
+  <div>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="2">
+          <ion-icon class="img-icon" name="image-outline"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <h2 class="img-text">
+            Kualitas Gambar
+          </h2>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-range class="img-range" aria-label="Range with ticks" [ticks]="true" [snaps]="true" [min]="0" [max]="8"></ion-range>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title class="profile-name">Arya Andhika</ion-card-title>
+      </ion-card-header>
+      <ion-card-subtitle class="profile-perusahaan">PT. Pertamina</ion-card-subtitle>
+    </ion-card>
+  </div>
+
+  <div>
+    <ion-card>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="1">
+            <ion-chip class="icon">
+              <ion-icon class="list-icon" name="image-outline"></ion-icon>
+            </ion-chip>
+          </ion-col>
+          <ion-col size="9">
+            <ion-card-header>
+              <ion-card-title class="profile-gambar">Gambar Ofline</ion-card-title>
+            </ion-card-header>
+              <ion-row>
+                <ion-card-subtitle class="profile-subgambar">Lorem Ipsum</ion-card-subtitle>
+              </ion-row>
+          </ion-col>
+          <ion-col size="2">
+            <ion-toggle class="img-toggle" [checked]="true"></ion-toggle><br /><br />
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+  </div>
+
+  <div>
+    <ion-card>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="1">
+            <ion-chip class="icon">
+              <ion-icon class="list-icon" name="cloud-upload-outline"></ion-icon>
+            </ion-chip>
+          </ion-col>
+          <ion-col size="9">
+            <ion-card-header>
+              <ion-card-title class="profile-gambar">Unggah Otomatis</ion-card-title>
+            </ion-card-header>
+              <ion-row>
+                <ion-card-subtitle class="profile-subgambar">Lorem Ipsum</ion-card-subtitle>
+              </ion-row>
+          </ion-col>
+          <ion-col size="2">
+            <ion-toggle class="up-toggle" [checked]="true"></ion-toggle><br /><br />
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+  </div>
+
+  <div>
+    <ion-card>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="1">
+            <ion-chip class="icon">
+              <ion-icon class="list-icon" name="card-outline"></ion-icon>
+            </ion-chip>
+          </ion-col>
+          <ion-col size="9">
+            <ion-card-header>
+              <ion-card-title class="profile-gambar">Pembaca RFID</ion-card-title>
+            </ion-card-header>
+              <ion-row>
+                <ion-card-subtitle class="profile-subgambar">Lorem Ipsum</ion-card-subtitle>
+              </ion-row>
+          </ion-col>
+          <ion-col size="2">
+            <ion-icon class="fw-rfid" name="chevron-forward-outline"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+  </div>
+
+  <div>
+    <ion-card>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="1">
+            <ion-chip class="icon">
+              <ion-icon class="list-icon" name="key-outline"></ion-icon>
+            </ion-chip>
+          </ion-col>
+          <ion-col size="9">
+            <ion-card-header>
+              <ion-card-title class="profile-gambar">Keamanan Akun</ion-card-title>
+            </ion-card-header>
+              <ion-row>
+                <ion-card-subtitle class="profile-subgambar">Lorem Ipsum</ion-card-subtitle>
+              </ion-row>
+          </ion-col>
+          <ion-col size="2">
+            <ion-icon class="fw-rfid" name="chevron-forward-outline"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+  </div>
+
+  <div>
+    <ion-card>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="1">
+            <ion-chip class="icon">
+              <ion-icon class="list-icon" name="time-outline"></ion-icon>
+            </ion-chip>
+          </ion-col>
+          <ion-col size="9">
+            <ion-card-header>
+              <ion-card-title class="profile-gambar">Log Aktivitas</ion-card-title>
+            </ion-card-header>
+              <ion-row>
+                <ion-card-subtitle class="profile-subgambar">Lorem Ipsum</ion-card-subtitle>
+              </ion-row>
+          </ion-col>
+          <ion-col size="2">
+            <ion-icon class="fw-rfid" name="chevron-forward-outline"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+  </div>
+
+  <div>
+    <ion-card>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="1">
+            <ion-chip class="help-icon">
+              <ion-icon class="list-help-icon" name="call-outline"></ion-icon>
+            </ion-chip>
+          </ion-col>
+          <ion-col size="9">
+            <ion-card-header>
+              <ion-card-title class="profile-gambar">Kontak Bantuan</ion-card-title>
+            </ion-card-header>
+              <ion-row>
+                <ion-card-subtitle class="profile-subgambar">Lorem Ipsum</ion-card-subtitle>
+              </ion-row>
+          </ion-col>
+          <ion-col size="2">
+            <ion-icon class="fw-rfid" name="chevron-forward-outline"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+  </div>
+
+  <div>
+    <ion-card>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="1">
+            <ion-chip class="icon">
+              <ion-icon class="list-icon" name="log-out-outline"></ion-icon>
+            </ion-chip>
+          </ion-col>
+          <ion-col size="9">
+            <ion-card-header>
+              <ion-card-title class="profile-gambar">Keluar</ion-card-title>
+            </ion-card-header>
+              <ion-row>
+                <ion-card-subtitle class="profile-subgambar">Lorem Ipsum</ion-card-subtitle>
+              </ion-row>
+          </ion-col>
+          <ion-col size="2">
+            <ion-icon class="fw-rfid" name="chevron-forward-outline"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+  </div>
+</ion-content>

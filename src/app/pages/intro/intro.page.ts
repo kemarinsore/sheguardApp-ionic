@@ -7,9 +7,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./intro.page.scss'],
 })
 export class IntroPage implements OnInit, OnDestroy {
-  intervalId: any;          // Untuk menyimpan interval otomatis
-  currentIndex: number = 0;  // Untuk melacak slide saat ini
-  slides: any[] = [          // Daftar slide
+  intervalId: any;          
+  currentIndex: number = 0;  
+  slides: any[] = [          
     { 
       title: 'Pemeriksaan Pekerja', 
       description: 'Tujuan dari pengecekan adalah untuk memastikan pekerja menjalankan SOP dengan benar demi keselamatan seluruh pekerja', 
@@ -28,18 +28,17 @@ export class IntroPage implements OnInit, OnDestroy {
   constructor(private router: Router) {}
 
   ngOnInit() {
-    this.startAutoSlide(); // Memulai auto-slide ketika komponen diinisialisasi
+    this.startAutoSlide(); 
   }
 
   ngOnDestroy() {
-    clearInterval(this.intervalId); // Menghentikan interval ketika komponen dihancurkan
+    clearInterval(this.intervalId); 
   }
 
-  // Fungsi untuk memulai auto-slide
   startAutoSlide(): void {
     this.intervalId = setInterval(() => {
       this.currentIndex = (this.currentIndex + 1) % this.slides.length;
-    }, 5000); // Ganti slide setiap 5 detik
+    }, 5000); 
   }
 
   // Fungsi untuk berpindah ke slide tertentu
