@@ -10,9 +10,19 @@ export class IntroPage implements OnInit, OnDestroy {
   intervalId: any;          // Untuk menyimpan interval otomatis
   currentIndex: number = 0;  // Untuk melacak slide saat ini
   slides: any[] = [          // Daftar slide
-    { title: 'Pemeriksaan Pekerja', description: 'Tujuan dari pengecekan adalah untuk memastikan pekerja menjalankan SOP dengan benar demi keselamatan seluruh pekerja', img: '../assets/img/variant1.png' },
-    { title: 'Pengecekan Alat', description: 'Tujuan dari pengecekan alat adalah untuk memastikan alat dapat berjalan dengan optimal dan aman bagi pekerja', img: '../assets/img/variant2.png' },
-    { title: 'Siap SOP', description: 'Siap SOP pekerja telah mengikuti SOP yang tertera dan menjalankan Pengecekan Alat', img: '../assets/img/variant3.png' }
+    { 
+      title: 'Pemeriksaan Pekerja', 
+      description: 'Tujuan dari pengecekan adalah untuk memastikan pekerja menjalankan SOP dengan benar demi keselamatan seluruh pekerja', 
+      img: '../assets/img/variant1.png' 
+    },
+    { title: 'Pengecekan Alat', 
+      description: 'Tujuan dari pengecekan alat adalah untuk memastikan alat dapat berjalan dengan optimal dan aman bagi pekerja', 
+      img: '../assets/img/variant2.png' 
+    },
+    { title: 'Siap SOP', 
+      description: 'Siap SOP pekerja telah mengikuti SOP yang tertera dan menjalankan Pengecekan Alat', 
+      img: '../assets/img/variant3.png' 
+    }
   ];
 
   constructor(private router: Router) {}

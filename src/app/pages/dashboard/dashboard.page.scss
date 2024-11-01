@@ -4,14 +4,16 @@
     align-items: center;
     padding: 10px;
     position: relative;
-    height: 120px;
+    height: 140px;
+    width: 100%;
     z-index: -5;
     background-color: rgba(167, 11, 11, 1);
   }
   
   .custom-toolbar {
-    color: rgba(167, 11, 11, 1);
-    z-index: 10;
+    background-color: rgb(131, 0, 0);
+    position: relative;
+    
   }
   
   .header-left {
@@ -39,7 +41,8 @@
     width: 361px;
     border-radius: 16px;
     position: relative;
-    top: 5px; /* Make the card float right above the toolbar */
+    top: -15px; /* Make the card float right above the toolbar */
+    bottom: -10px;
     margin-left: 95%;
     transform: translateX(-50%);
     z-index: 10;
@@ -97,6 +100,7 @@
     height: 70px;
     width: 70px;
     margin: auto;
+    margin-top: 15px;
   }
   
   .damkar {
@@ -120,7 +124,7 @@
     height: 70px;
     width: 70px;
     margin: auto;
-    margin-top: 27px;
+    margin-top: 25px;
   }
   
   
@@ -151,7 +155,7 @@
     height: 70px;
     width: 70px;
     margin: auto;
-    margin-top: 19px;
+    margin-top: 5px;
   }
   
   a {
@@ -166,8 +170,15 @@
     height: 196px;
     width: 240px;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 10px;
     border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .img-news {
+    object-fit: cover;
+    height: 120px;
+    width: 240px;
   }
   
   .save-news {
@@ -208,8 +219,8 @@
   }
 
   swiper-container {
-    --swiper-pagination-bullet-inactive-color: var(ion-color-step-200, )
-    --swiper-pagination-color: var(--ion-color-custom, #ffcc3d)
+    --swiper-pagination-bullet-inactive-color: var(ion-color-step-200, );
+    --swiper-pagination-color: var(--ion-color-custom, #ffcc3d);
   }
 
   .swiper1 {
