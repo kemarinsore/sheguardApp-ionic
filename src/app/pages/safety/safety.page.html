@@ -1,0 +1,95 @@
+<ion-content>
+  <div>
+  <ion-grid [fixed]="true">
+    <ion-row>
+      <ion-col size="5">
+        <h2>Safety Patrol</h2>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
+
+<div>
+  <ion-grid [fixed]="true">
+    <ion-row>
+      <ion-col class="kalender" size="15">
+        <ion-datetime></ion-datetime>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
+
+<div>
+  <ion-grid [fixed]="true">
+    <ion-row>
+      <ion-col class="kalender" size="15">
+        <ion-card class="bg">
+          <ion-row class="tittle">
+            <ion-col size="6">
+              <ion-card-header>
+                <ion-card-title>Tugas Harian</ion-card-title>
+              </ion-card-header>
+            </ion-col>
+            <ion-col>
+              <ion-button>Lihat Semua</ion-button>
+            </ion-col>
+          </ion-row>
+          
+          <ion-list>
+            <div class="scrollable">
+            <ion-card>
+              <ion-grid class="top">
+                <ion-col class="tugas-tittle" size="5">
+                  <ion-row>
+                    <h2 >Tugas Negara</h2>
+                  </ion-row>
+                  <ion-row class="tanggal-tittle">
+                    <a>Mei 14, 8:00am - 9:00am</a>
+                  </ion-row>
+                </ion-col>
+                <ion-col class="tugas-status" size="10">
+                  <h2 class="font-status">Diterima</h2>
+                </ion-col>
+              </ion-grid>
+            </ion-card>
+
+            <ion-card>
+              <ion-grid class="top">
+                <ion-col class="tugas-tittle" size="5">
+                  <ion-row>
+                    <h2 >Tugas Nulis</h2>
+                  </ion-row>
+                  <ion-row class="tanggal-tittle">
+                    <a>Mei 14, 8:00am - 9:00am</a>
+                  </ion-row>
+                </ion-col>
+                <ion-col class="tugas-status" size="10">
+                  <h2 class="font-status2">Pengecekan</h2>
+                </ion-col>
+              </ion-grid>
+            </ion-card>
+
+            <ion-card>
+              <ion-grid class="top">
+                <ion-col class="tugas-tittle" size="5">
+                  <ion-row>
+                    <h2 >Tugas Ngoding</h2>
+                  </ion-row>
+                  <ion-row class="tanggal-tittle">
+                    <a>Mei 14, 8:00am - 9:00am</a>
+                  </ion-row>
+                </ion-col>
+                <ion-col class="tugas-status" size="10">
+                  <h2 class="font-status">Diterima</h2>
+                </ion-col>
+              </ion-grid>
+            </ion-card>
+          </div>
+          </ion-list>
+          
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
+</ion-content>

@@ -12,16 +12,16 @@ const routes: Routes = [
         loadChildren: () => import('../dashboard/dashboard.module').then(m => m.DashboardPageModule)
       },
       {
-        path: 'tab2',
-        loadChildren: () => import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+        path: 'safety',
+        loadChildren: () => import('../safety/safety.module').then(m => m.SafetyPageModule)
       },
       {
-        path: 'tab3',
-        loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+        path: 'panic',
+        loadChildren: () => import('../panic/panic.module').then(m => m.PanicPageModule)
       },
       {
-        path: 'tab4',
-        loadChildren: () => import('../tab4/tab4.module').then(m => m.Tab4PageModule)
+        path: 'notification',
+        loadChildren: () => import('../notification/notification.module').then(m => m.NotificationPageModule)
       },
       {
         path: 'profile',
