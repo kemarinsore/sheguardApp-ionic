@@ -1,5 +1,5 @@
 .description {
-  text-align: center;
+  text-align: left;
   font-size: 14px;
   color: #777;
   margin-bottom: 20px;
@@ -8,10 +8,15 @@
 .inline-fields {
   display: flex;
   gap: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-ion-item ion-label {
+.ion-label {
+  font-size: 14px;
+  color: #a00;
+}
+.ion-select {
   font-size: 14px;
   color: #a00;
 }

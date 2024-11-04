@@ -11,32 +11,38 @@
   </p>
 
   <ion-list>
-    <ion-item>
-      <ion-label position="stacked">Jenis Kejadian</ion-label>
-      <ion-select placeholder="Pilih Jenis Kejadian">
-        <ion-select-option value="kebakaran">Kebakaran</ion-select-option>
-        <ion-select-option value="kecelakaan">Kecelakaan</ion-select-option>
-        <ion-select-option value="kerusuhan">Kerusuhan</ion-select-option>
-      </ion-select>
-    </ion-item>
+    <ion-select
+      fill="outline"
+      label-placement="floating"
+      label="jenis kejadian"
+    >
+      <ion-select-option value="kebakaran">Kebakaran</ion-select-option>
+      <ion-select-option value="kecelakaan">Kecelakaan</ion-select-option>
+      <ion-select-option value="kerusuhan">Kerusuhan</ion-select-option>
+    </ion-select>
 
     <div class="inline-fields">
-      <ion-item>
-        <ion-label position="stacked">Unit</ion-label>
-        <ion-input placeholder="All Unit"></ion-input>
-      </ion-item>
-      <ion-item>
-        <ion-label position="stacked">Area</ion-label>
-        <ion-input placeholder="Gerbang Utama"></ion-input>
-      </ion-item>
+      <ion-input
+        label="unit"
+        label-placement="floating"
+        fill="outline"
+        position="stacked"
+      ></ion-input>
+
+      <ion-input
+        label="Area"
+        label-placement="floating"
+        fill="outline"
+        position="stacked"
+      ></ion-input>
     </div>
 
-    <ion-item>
-      <ion-label position="stacked">Keterangan</ion-label>
-      <ion-textarea
-        placeholder="Masukkan keterangan kejadian..."
-      ></ion-textarea>
-    </ion-item>
+    <ion-input
+      label="Keterangan"
+      label-placement="floating"
+      fill="outline"
+      position="stacked"
+    ></ion-input>
 
     <ion-item lines="none">
       <ion-checkbox slot="start"></ion-checkbox>
