@@ -9,11 +9,12 @@
 <ion-content>
   <!-- Login Form Container -->
   <div class="login-container">
-    <h2>Selamat Datang</h2>
-    <p>Keluarga menunggu di rumah, jaga keselamatan dan patuhi SOP</p>
+    <h2 class="deskripsi">Selamat Datang</h2>
+    <p class="deskripsi-input">
+      Keluarga menunggu di rumah, jaga keselamatan dan patuhi SOP
+    </p>
 
     <!-- Username Input -->
-
     <ion-input
       class="input-item"
       label="Nama"
@@ -35,13 +36,23 @@
     <ion-item lines="none" class="remember-me">
       <ion-checkbox slot="start"></ion-checkbox>
       <ion-label>Ingat Saya</ion-label>
-      <ion-button fill="clear" slot="end" color="danger" class="forgot-password"
+      <ion-button
+        fill="clear"
+        slot="end"
+        color="danger"
+        class="forgot-password"
+        [routerLink]="['/forgot-password']"
         >Lupa Kata Sandi?</ion-button
       >
     </ion-item>
 
     <!-- Login Button -->
-    <ion-button expand="block" color="danger" class="login-button">
+    <ion-button
+      expand="block"
+      color="danger"
+      class="login-button"
+      [routerLink]="['/tabs']"
+    >
       Masuk
     </ion-button>
 
