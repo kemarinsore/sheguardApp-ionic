@@ -66,13 +66,13 @@ ion-checkbox.checked {
   --background-checked: #b71c1c;
 }
 
-// /* Input Fields */
-// .input-item {
-//   --background: #f8f8f8;
-//   --border-radius: 8px;
-//   margin: 8px 0;
-//   border-radius: 8px;
-// }
+/* Input Fields */
+.input-item {
+  --border-radius: 8px;
+  margin: 8px 0;
+  border-radius: 8px;
+  text-align: left;
+}
 
 /* Remember Me and Forgot Password */
 .remember-forgot {
