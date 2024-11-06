@@ -54,7 +54,8 @@
   .card-image {
     width: 100%;
     height: 100%;
-    object-fit: fill; /* Fill the card with the image proportionally */
+    object-fit: fill; 
+    margin-top: 3px;
   }
   
   .floating-title {
@@ -187,19 +188,22 @@
   .save-news {
     font-size: 20px;
     margin-left: 185px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: -15px;
   }
 
   ion-card-subtitle {
+    color: #000000;
     font-size: 20px;
-    margin-top: -50px;
+    margin-top: -10px;
     position: relative;
     display: flex;
   }
 
   ion-card-content {
     font-size: 10px;
-    margin-top: -14px;
+    margin-top: -20px;
+    margin-left: 8px;
   }
 
   .truncate {
