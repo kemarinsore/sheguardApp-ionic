@@ -26,8 +26,9 @@
 }
 
 .font-text {
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 22px;
 }
 
 .font-range {
@@ -42,8 +43,9 @@
 }
 
 .img-text {
-    font-size: 20px;
-    margin-left: 18px;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 22px;
 }
 
 .img-range {
@@ -51,14 +53,21 @@
     margin-right: 30px;
 }
 
+.profile-list {
+    margin-left: 10px;
+}
+
 .profile-name {
-    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 3px;
+    margin-right: 20px;
+    font-size: 12px;
     font-style: bold;
     color: black;
 }
 
 .profile-perusahaan {
-    font-size: 15px;
+    font-size: 10px;
     font-style: normal;
     color: black;
     margin-left: 20px;
@@ -66,16 +75,22 @@
     margin-bottom: 20px;
 }
 
+.pencil {
+    font-size: 30px;
+    margin-top: 23px;
+    margin-left: 25px;
+}
+
 .profile-gambar {
-    font-size: 20px;
+    font-size: 12px;
     font-style: bold;
     color: black;
     margin-left: 40px;
-    // margin-top: 10px;
+    margin-top: 10px;
 }
 
 .profile-subgambar {
-    font-size: 15px;
+    font-size: 10px;
     font-style: normal;
     color: black;
     margin-left: 60px;
@@ -84,14 +99,14 @@
 }
 
 .list-icon {
-    font-size: 50px;
+    font-size: 25px;
     margin-left: -5px;
     color: rgba(167, 11, 11, 1);
-    // margin-top: -5px; 
+    // margin-top: -10px; 
 }
 
 .list-help-icon {
-    font-size: 50px;
+    font-size: 25px;
     margin-left: -5px;
     color: rgba(147, 206, 186, 1);
 }
@@ -110,6 +125,8 @@ ion-chip {
     padding: 80%;
     background-color: rgba(167, 11, 11, 0.25);
     border-radius: 50%;
+    margin-top: 12px;
+    margin-left: 20px;
 }
 
 .help-icon {
@@ -121,4 +138,8 @@ ion-chip {
 .fw-rfid {
     font-size: 40px;
     margin-top: 23px;
+}
+
+.bottom {
+    margin-bottom: 70px;
 }
