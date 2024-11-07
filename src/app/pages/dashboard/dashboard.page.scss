@@ -40,7 +40,7 @@
     height: 160px;
     width: 361px;
     border-radius: 16px;
-    border: 10px;
+    // border: 10px;
     position: relative;
     top: -10px; /* Make the card float right above the toolbar */
     bottom: -10px;
@@ -49,6 +49,7 @@
     z-index: 2;
     overflow: hidden;
     text-align: start;
+    background-color: transparent;
   }
   
   .card-image {
@@ -226,8 +227,8 @@
   }
 
   swiper-container {
-    --swiper-pagination-bullet-inactive-color: var(ion-color-step-200, );
-    --swiper-pagination-color: var(--ion-color-custom, #ffcc3d);
+    --swiper-pagination-bullet-inactive-color: rgba(167, 11, 11, 1);
+    --swiper-pagination-color: rgba(167, 11, 11, 1);
   }
 
   .swiper1 {

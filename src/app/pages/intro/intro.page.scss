@@ -27,9 +27,11 @@
     margin: auto;
   }
 
-  .swiper-container {
-    --swiper-pagination-bullet-inactive-color: rgba(167, 11, 11, 0.5); /* Inactive red */
-    --swiper-pagination-bullet-active-color: rgba(167, 11, 11, 1); /* Active red */
+  swiper-container {
+    --swiper-pagination-bullet-inactive-color: rgba(167, 11, 11, 1);
+    --swiper-pagination-color: rgba(167, 11, 11, 1);
   }
+
+
   
   
