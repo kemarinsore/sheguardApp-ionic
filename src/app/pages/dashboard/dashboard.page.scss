@@ -20,7 +20,7 @@
   
   .header-left {
     color: white;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 15px;
   }
   
@@ -38,7 +38,7 @@
     width: 50px;
     height: 50px;
     margin-right: 30px;
-    margin-top: 35px;
+    margin-top: 60px;
   }
   
   .floating-card {
@@ -47,7 +47,7 @@
     border-radius: 16px;
     // border: 10px;
     position: relative;
-    top: -20px; /* Make the card float right above the toolbar */
+    top: -5px; /* Make the card float right above the toolbar */
     bottom: -10px;
     margin-left: 95%;
     transform: translateX(-50%);
@@ -178,10 +178,10 @@
     height: 196px;
     width: 240px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 5px;
     border-radius: 8px;
     object-fit: cover;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-bottom: 100px;
   }
 
@@ -250,4 +250,8 @@
     justify-content: left;
     // padding-left: 1px;
     // margin-right: -100px;
+  }
+
+  .bottom {
+    margin-bottom: 120px;
   }
