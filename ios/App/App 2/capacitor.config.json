@@ -1,0 +1,14 @@
+{
+	"appId": "com.tok.example",
+	"appName": "sheguardApp",
+	"webDir": "www",
+	"packageClassList": [
+		"AppPlugin",
+		"CAPCameraPlugin",
+		"FilesystemPlugin",
+		"GeolocationPlugin",
+		"HapticsPlugin",
+		"KeyboardPlugin",
+		"StatusBarPlugin"
+	]
+}
