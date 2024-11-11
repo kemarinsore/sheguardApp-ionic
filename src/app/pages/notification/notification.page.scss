@@ -1,88 +1,67 @@
-/* Mengatur ion-header dan ion-toolbar menjadi transparan */
-ion-header {
-  --background: transparent;
-  border: none; /* Menghilangkan border default jika ada */
-}
+.notification-item {
+  --padding-start: 16px;
+  --inner-padding-end: 10px;
+  --padding-end: 10px;
+  position: relative;
+  padding-left: 8px;
 
-ion-toolbar {
-  --background: transparent;
-  --ion-background-color: transparent;
-  border: none; /* Menghilangkan border bawah jika ada */
-}
-
-/* Mengatur warna teks dan ikon agar tetap terlihat */
-.title {
-  font-size: 20px;
-  color: #000000;
-  font-weight: bold;
-}
-
-.back-button ion-icon {
-  color: #000000; /* Atur warna ikon sesuai kebutuhan */
-}
-
-ion-content {
-  --background: #ffffff;
-
-  /* Back Button */
-  .back-button {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: 10;
+  .icon {
+    font-size: 24px;
+    margin-right: 8px;
   }
 
-  /* Title */
+  .icon-blue {
+    color: #007bff;
+  }
+
+  .icon-red {
+    color: #ff3b30;
+  }
+
+  .icon-green {
+    color: #34c759;
+  }
+
+  .icon-yellow {
+    color: #ffcc00;
+  }
+
+  .notification-content {
+    flex: 1;
+    margin-left: 10px;
+  }
+
   .title {
-    text-align: center;
-    font-size: 1.4em;
     font-weight: bold;
-    color: #000;
-    margin-top: 20px;
+    margin: 0;
+    font-size: 16px;
   }
 
-  /* Image Container */
-  .image-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-
-    img {
-      width: 200px;
-      height: auto;
-    }
+  .description {
+    color: #666;
+    font-size: 14px;
+    margin: 5px 0;
   }
 
-  /* Notifikasi Text H1 */
-  .notifikasi-text-h1 {
-    text-align: center;
-    font-size: 1.4em;
-    color: #000000;
-    margin: 15px 20px;
-    font-weight: bold;
+  .action-link {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 8px;
   }
 
-  /* Notifikasi Text p */
-  .notifikasi-text-p {
-    text-align: center;
-    font-size: 0.9em;
-    color: #000000;
-    margin: 15px 20px;
+  .time {
+    color: #666;
+    font-size: 12px;
   }
 
-  /* Input Field */
-  .input-item {
-    --background: #f8f8f8;
-    --border-radius: 8px;
-    margin: 20px 20px 10px;
-    padding-left: 10px;
-  }
-
-  /* Submit Button */
-  .submit-button {
-    --background: #b71c1c;
-    --border-radius: 8px;
-    font-weight: bold;
-    margin: 20px 20px;
+  .dot {
+    position: absolute;
+    left: 35px;
+    top: 12px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
   }
 }

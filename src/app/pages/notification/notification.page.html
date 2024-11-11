@@ -1,33 +1,91 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title class="title">Notifikasi</ion-title>
+    <ion-title>Notifikasi</ion-title>
+    <ion-buttons slot="end">
+      <ion-button fill="clear">
+        <ion-icon slot="icon-only" name="reload-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content class="ion-padding">
-  <!-- Back Button -->
-  <ion-button color="dark" class="back-button" slot="start">
-    <ion-icon name="arrow-back-outline"></ion-icon>
-  </ion-button>
+<ion-content>
+  <ion-list>
+    <!-- Notification Item 1 -->
+    <ion-item class="notification-item" lines="full">
+      <ion-icon
+        name="document-outline"
+        slot="start"
+        class="icon icon-blue"
+      ></ion-icon>
+      <div class="notification-content">
+        <h2 class="title">Notifikasi!</h2>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <a class="action-link">Tandai Telah Dibaca</a>
+      </div>
+      <ion-note slot="end" class="time">23 min</ion-note>
+      <div class="dot dot-red"></div>
+    </ion-item>
 
-  <!-- Title -->
+    <!-- Notification Item 2 -->
+    <ion-item class="notification-item" lines="full">
+      <ion-icon
+        name="heart-outline"
+        slot="start"
+        class="icon icon-red"
+      ></ion-icon>
+      <div class="notification-content">
+        <h2 class="title">Laporan Kesehatan!</h2>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <a class="action-link">Buka Laporan Mingguan</a>
+      </div>
+      <ion-note slot="end" class="time">23 min</ion-note>
+      <div class="dot dot-red"></div>
+    </ion-item>
 
-  <!-- Illustration Image -->
-  <div class="image-container">
-    <img
-      src="/assets/img/logo-notifikasi.png"
-      alt="Reset Password Illustration"
-    />
-  </div>
+    <!-- Notification Item 3 -->
+    <ion-item class="notification-item" lines="full">
+      <ion-icon
+        name="alarm-outline"
+        slot="start"
+        class="icon icon-green"
+      ></ion-icon>
+      <div class="notification-content">
+        <h2 class="title">Pengingat!</h2>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <a class="action-link">Tandai Selesai</a> •
+        <a class="action-link">Perbarui</a>
+      </div>
+      <ion-note slot="end" class="time">23 min</ion-note>
+      <div class="dot dot-red"></div>
+    </ion-item>
 
-  <!-- Instruction Text -->
-  <h1 class="notifikasi-text-h1">Kami Akan Beritahu</h1>
-  <p class="notifikasi-text-p">
-    Kembali lagi nanti untuk Notifikasi, Pengingat, Laporan Kesehatan dan Jadwal
-  </p>
-
-  <!-- Submit Button -->
-  <ion-button expand="block" color="danger" class="submit-button">
-    Simpan
-  </ion-button>
+    <!-- Notification Item 4 -->
+    <ion-item class="notification-item" lines="full">
+      <ion-icon
+        name="calendar-outline"
+        slot="start"
+        class="icon icon-yellow"
+      ></ion-icon>
+      <div class="notification-content">
+        <h2 class="title">Jadwal!</h2>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <a class="action-link">Lihat</a> • <a class="action-link">Perbarui</a>
+      </div>
+      <ion-note slot="end" class="time">23 min</ion-note>
+      <div class="dot dot-red"></div>
+    </ion-item>
+  </ion-list>
 </ion-content>
