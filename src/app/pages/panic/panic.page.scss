@@ -26,3 +26,13 @@ ion-button {
   margin-top: 20px;
   --background: #b71c1c;
 }
+ion-checkbox {
+  --border-radius: 5;
+  --size: 20px;
+  --background: #fff;
+  --border-color: #b0b0b0;
+}
+
+ion-checkbox.checked {
+  --background-checked: #b71c1c;
+}
