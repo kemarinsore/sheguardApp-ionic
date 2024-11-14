@@ -48,6 +48,10 @@ const routes: Routes = [
         (m) => m.SandiBaruPageModule
       ),
   },
+  {
+    path: 'edit-profile',
+    loadChildren: () => import('./pages/edit-profile/edit-profile.module').then( m => m.EditProfilePageModule)
+  },
 ];
 @NgModule({
   imports: [
