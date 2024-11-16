@@ -1,6 +1,6 @@
 <ion-content [fullscreen]="true">
   <img class="bg-profil" src="assets/img/bg-profil.png" />
-    <img class="img-profil"  src="assets/img/profil.png" />
+  <img class="img-profil" src="assets/img/profil.png" />
 
   <div>
     <ion-grid>
@@ -9,18 +9,22 @@
           <ion-icon class="font-icon" name="text"></ion-icon>
         </ion-col>
         <ion-col>
-          <h2 class="font-text">
-            Ukuran Huruf
-          </h2>
+          <h2 class="font-text">Ukuran Huruf</h2>
         </ion-col>
       </ion-row>
       <ion-row>
-        <ion-range class="font-range" aria-label="Range with ticks" [ticks]="true" [snaps]="true" [min]="0" [max]="8"></ion-range>
+        <ion-range
+          class="font-range"
+          aria-label="Range with ticks"
+          [ticks]="true"
+          [snaps]="true"
+          [min]="0"
+          [max]="8"
+        ></ion-range>
       </ion-row>
     </ion-grid>
   </div>
 
-  
   <div>
     <ion-grid>
       <ion-row>
@@ -28,13 +32,18 @@
           <ion-icon class="img-icon" name="image-outline"></ion-icon>
         </ion-col>
         <ion-col>
-          <h2 class="img-text">
-            Kualitas Gambar
-          </h2>
+          <h2 class="img-text">Kualitas Gambar</h2>
         </ion-col>
       </ion-row>
       <ion-row>
-        <ion-range class="img-range" aria-label="Range with ticks" [ticks]="true" [snaps]="true" [min]="0" [max]="8"></ion-range>
+        <ion-range
+          class="img-range"
+          aria-label="Range with ticks"
+          [ticks]="true"
+          [snaps]="true"
+          [min]="0"
+          [max]="8"
+        ></ion-range>
       </ion-row>
     </ion-grid>
   </div>
@@ -47,12 +56,16 @@
             <ion-card-header>
               <ion-card-title class="profile-name">Arya Andhika</ion-card-title>
             </ion-card-header>
-              <ion-row>
-                <p class="profile-perusahaan">Nocola IoT Solution</p>
-              </ion-row>
+            <ion-row>
+              <p class="profile-perusahaan">Nocola IoT Solution</p>
+            </ion-row>
           </ion-col>
           <ion-col size="2">
-            <ion-icon class="pencil" name="pencil-outline"></ion-icon>
+            <ion-icon
+              class="pencil"
+              name="pencil-outline"
+              [routerLink]="['/edit-profile']"
+            ></ion-icon>
           </ion-col>
         </ion-row>
       </ion-grid>
@@ -70,14 +83,17 @@
           </ion-col>
           <ion-col size="9">
             <ion-card-header>
-              <ion-card-title class="profile-gambar">Gambar Ofline</ion-card-title>
+              <ion-card-title class="profile-gambar"
+                >Gambar Ofline</ion-card-title
+              >
             </ion-card-header>
-              <ion-row>
-                <p class="profile-subgambar">Lorem Ipsum</p>
-              </ion-row>
+            <ion-row>
+              <p class="profile-subgambar">Lorem Ipsum</p>
+            </ion-row>
           </ion-col>
           <ion-col size="2">
-            <ion-toggle class="img-toggle" [checked]="true"></ion-toggle><br /><br />
+            <ion-toggle class="img-toggle" [checked]="true"></ion-toggle
+            ><br /><br />
           </ion-col>
         </ion-row>
       </ion-grid>
@@ -90,19 +106,25 @@
         <ion-row>
           <ion-col size="1">
             <ion-chip class="icon">
-              <ion-icon class="list-icon" name="cloud-upload-outline"></ion-icon>
+              <ion-icon
+                class="list-icon"
+                name="cloud-upload-outline"
+              ></ion-icon>
             </ion-chip>
           </ion-col>
           <ion-col size="9">
             <ion-card-header>
-              <ion-card-title class="profile-gambar">Unggah Otomatis</ion-card-title>
+              <ion-card-title class="profile-gambar"
+                >Unggah Otomatis</ion-card-title
+              >
             </ion-card-header>
-              <ion-row>
-                <p class="profile-subgambar">Lorem Ipsum</p>
-              </ion-row>
+            <ion-row>
+              <p class="profile-subgambar">Lorem Ipsum</p>
+            </ion-row>
           </ion-col>
           <ion-col size="2">
-            <ion-toggle class="up-toggle" [checked]="true"></ion-toggle><br /><br />
+            <ion-toggle class="up-toggle" [checked]="true"></ion-toggle
+            ><br /><br />
           </ion-col>
         </ion-row>
       </ion-grid>
@@ -120,11 +142,13 @@
           </ion-col>
           <ion-col size="9">
             <ion-card-header>
-              <ion-card-title class="profile-gambar">Pembaca RFID</ion-card-title>
+              <ion-card-title class="profile-gambar"
+                >Pembaca RFID</ion-card-title
+              >
             </ion-card-header>
-              <ion-row>
-                <p class="profile-subgambar">Lorem Ipsum</p>
-              </ion-row>
+            <ion-row>
+              <p class="profile-subgambar">Lorem Ipsum</p>
+            </ion-row>
           </ion-col>
           <ion-col size="2">
             <ion-icon class="fw-rfid" name="chevron-forward-outline"></ion-icon>
@@ -145,11 +169,13 @@
           </ion-col>
           <ion-col size="9">
             <ion-card-header>
-              <ion-card-title class="profile-gambar">Keamanan Akun</ion-card-title>
+              <ion-card-title class="profile-gambar"
+                >Keamanan Akun</ion-card-title
+              >
             </ion-card-header>
-              <ion-row>
-                <p class="profile-subgambar">Lorem Ipsum</p>
-              </ion-row>
+            <ion-row>
+              <p class="profile-subgambar">Lorem Ipsum</p>
+            </ion-row>
           </ion-col>
           <ion-col size="2">
             <ion-icon class="fw-rfid" name="chevron-forward-outline"></ion-icon>
@@ -170,11 +196,13 @@
           </ion-col>
           <ion-col size="9">
             <ion-card-header>
-              <ion-card-title class="profile-gambar">Log Aktivitas</ion-card-title>
+              <ion-card-title class="profile-gambar"
+                >Log Aktivitas</ion-card-title
+              >
             </ion-card-header>
-              <ion-row>
-                <p class="profile-subgambar">Lorem Ipsum</p>
-              </ion-row>
+            <ion-row>
+              <p class="profile-subgambar">Lorem Ipsum</p>
+            </ion-row>
           </ion-col>
           <ion-col size="2">
             <ion-icon class="fw-rfid" name="chevron-forward-outline"></ion-icon>
@@ -195,11 +223,13 @@
           </ion-col>
           <ion-col size="9">
             <ion-card-header>
-              <ion-card-title class="profile-gambar">Kontak Bantuan</ion-card-title>
+              <ion-card-title class="profile-gambar"
+                >Kontak Bantuan</ion-card-title
+              >
             </ion-card-header>
-              <ion-row>
-                <p class="profile-subgambar">Lorem Ipsum</p>
-              </ion-row>
+            <ion-row>
+              <p class="profile-subgambar">Lorem Ipsum</p>
+            </ion-row>
           </ion-col>
           <ion-col size="2">
             <ion-icon class="fw-rfid" name="chevron-forward-outline"></ion-icon>
@@ -222,9 +252,9 @@
             <ion-card-header>
               <ion-card-title class="profile-gambar">Keluar</ion-card-title>
             </ion-card-header>
-              <ion-row>
-                <p class="profile-subgambar">Lorem Ipsum</p>
-              </ion-row>
+            <ion-row>
+              <p class="profile-subgambar">Lorem Ipsum</p>
+            </ion-row>
           </ion-col>
           <ion-col size="2">
             <ion-icon class="fw-rfid" name="chevron-forward-outline"></ion-icon>

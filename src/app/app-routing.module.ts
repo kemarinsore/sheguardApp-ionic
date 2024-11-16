@@ -50,7 +50,14 @@ const routes: Routes = [
   },
   {
     path: 'edit-profile',
-    loadChildren: () => import('./pages/edit-profile/edit-profile.module').then( m => m.EditProfilePageModule)
+    loadChildren: () =>
+      import('./pages/edit-profile/edit-profile.module').then(
+        (m) => m.EditProfilePageModule
+      ),
+  },
+  {
+    path: 'news',
+    loadChildren: () => import('./pages/news/news.module').then( m => m.NewsPageModule)
   },
 ];
 @NgModule({

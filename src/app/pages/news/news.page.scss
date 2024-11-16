@@ -1,0 +1,41 @@
+.news-container {
+  display: flex;
+  flex-direction: column;
+
+  .news-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .news-details {
+    padding: 16px;
+
+    .news-date {
+      font-size: 14px;
+      color: #999;
+      margin-bottom: 8px;
+    }
+
+    .news-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 16px;
+    }
+
+    .news-content {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 16px;
+      color: #333;
+    }
+
+    .sub-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 16px;
+      margin-bottom: 8px;
+      color: #d9534f;
+    }
+  }
+}
