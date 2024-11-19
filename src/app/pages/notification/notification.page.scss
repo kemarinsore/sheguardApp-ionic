@@ -1,67 +1,84 @@
-.notification-item {
-  --padding-start: 16px;
-  --inner-padding-end: 10px;
-  --padding-end: 10px;
-  position: relative;
-  padding-left: 8px;
+ion-header {
+  --background: white;
+  --color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-  .icon {
-    font-size: 24px;
-    margin-right: 8px;
+ion-content {
+  --background: #f8f9fa;
+}
+
+ion-item {
+  --border-color: transparent;
+  background: white;
+  margin: 8px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  ion-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  .icon-blue {
-    color: #007bff;
-  }
-
-  .icon-red {
-    color: #ff3b30;
-  }
-
-  .icon-green {
-    color: #34c759;
-  }
-
-  .icon-yellow {
-    color: #ffcc00;
-  }
-
-  .notification-content {
-    flex: 1;
-    margin-left: 10px;
-  }
-
-  .title {
-    font-weight: bold;
-    margin: 0;
-    font-size: 16px;
-  }
-
-  .description {
-    color: #666;
-    font-size: 14px;
-    margin: 5px 0;
-  }
-
-  .action-link {
-    font-size: 14px;
-    color: #007bff;
-    text-decoration: none;
-    margin-right: 8px;
-  }
-
-  .time {
-    color: #666;
-    font-size: 12px;
-  }
-
-  .dot {
-    position: absolute;
-    left: 5px;
-    top: 12px;
-    width: 5px;
-    height: 5px;
+  .status-icon {
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
-    background-color: red;
+  }
+
+  .status-icon.red {
+    background: #d9534f;
+  }
+
+  ion-icon.icon {
+    font-size: 24px;
+  }
+
+  ion-icon.red {
+    color: #d9534f;
+  }
+
+  ion-icon.blue {
+    color: #0275d8;
+  }
+
+  ion-label {
+    h2 {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0 0 4px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #666;
+      margin: 0 0 8px;
+      line-height: 1.4;
+    }
+
+    .action-links {
+      font-size: 14px;
+      font-weight: 500;
+
+      a {
+        color: #007bff;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      span {
+        margin: 0 4px;
+        color: #999;
+      }
+    }
+  }
+
+  ion-text {
+    font-size: 12px;
   }
 }
