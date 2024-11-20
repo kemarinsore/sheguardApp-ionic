@@ -59,6 +59,10 @@ const routes: Routes = [
     path: 'news',
     loadChildren: () => import('./pages/news/news.module').then( m => m.NewsPageModule)
   },
+  {
+    path: 'pelaku-k3',
+    loadChildren: () => import('./pages/pelaku-k3/pelaku-k3.module').then( m => m.PelakuK3PageModule)
+  },
 ];
 @NgModule({
   imports: [

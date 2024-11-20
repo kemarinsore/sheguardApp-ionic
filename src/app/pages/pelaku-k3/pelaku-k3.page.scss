@@ -1,0 +1,110 @@
+/* Header */
+ion-header {
+  --background: #a83232;
+  --color: white;
+}
+
+.title-header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Welcome Section */
+.welcome-section {
+  padding: 16px;
+  background: #a83232;
+  color: white;
+}
+
+.date-text {
+  font-size: 14px;
+}
+
+/* Card Image Section */
+.card-image-container {
+  position: relative;
+  margin: 16px 0;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  color: white;
+}
+
+.progress-indicator {
+  display: flex;
+  margin-top: 8px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.yellow {
+  background: #ffc107;
+}
+
+.gray {
+  background: #ccc;
+}
+
+/* Report Card */
+.report-card {
+  margin: 16px;
+  padding: 16px;
+  background: #337ab7;
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.report-card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.points {
+  font-size: 14px;
+  text-align: right;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-item .label {
+  font-size: 14px;
+}
+
+.stat-item .value {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Grid Icons */
+.icon-col {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.icon {
+  font-size: 28px;
+  color: #337ab7;
+  margin-bottom: 8px;
+}
